@@ -1,5 +1,7 @@
 import 'package:auth_project/components/my_button.dart';
 import 'package:auth_project/components/my_textfield.dart';
+import 'package:auth_project/components/square_tile.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 
@@ -60,7 +62,7 @@ class LoginPage extends StatelessWidget {
                 onTap: signUserIn,
               ),
 
-              const SizedBox(height: 50),
+              const SizedBox(height: 100),
 
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 25.0),
@@ -86,13 +88,14 @@ class LoginPage extends StatelessWidget {
                   ],
                 ),
               ),
-              Row(children: [
-                Image.asset('lib/images/apple.png',
-                  height: 72,
-                ),
-                Image.asset('lib/images/google.png',
-                  height: 72,
-                ),
+              const SizedBox(height: 50),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: const [
+                SquareTile(imagePath: 'lib/images/google.png'),
+                SizedBox(width: 30),
+                SquareTile(imagePath: 'lib/images/apple.png'),
+
               ],
               ),
             ],
