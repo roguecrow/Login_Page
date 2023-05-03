@@ -1,7 +1,6 @@
 import 'package:auth_project/components/my_button.dart';
 import 'package:auth_project/components/my_textfield.dart';
 import 'package:auth_project/components/square_tile.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 
@@ -16,6 +15,7 @@ class LoginPage extends StatelessWidget {
       body: SafeArea(
         child: Center(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const SizedBox(height: 50),
               const Text("LOGO",
@@ -95,7 +95,20 @@ class LoginPage extends StatelessWidget {
                 SquareTile(imagePath: 'lib/images/google.png'),
                 SizedBox(width: 30),
                 SquareTile(imagePath: 'lib/images/apple.png'),
-
+              ],
+              ),
+              const SizedBox(height: 50),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: const [
+                Text('Not a member?'),
+                SizedBox(width: 4),
+                Text('Register now',
+                  style: TextStyle(
+                      color: Colors.blue,
+                      fontWeight: FontWeight.bold,
+                  ),
+                ),
               ],
               ),
             ],
