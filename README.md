@@ -1,4 +1,4 @@
-# Documentation for LoginPage widget
+# LoginPage widget
 
 The `LoginPage` is a stateful widget that displays a form for users to login. It takes in an optional `onTap` function that is called when the "Register now" button is pressed.
 
@@ -48,7 +48,7 @@ This is the full code snippet for the `LoginPage` widget with documentation.
 
 
 
-# Documentation for MyTextField widget
+# MyTextField widget
 
 The `MyTextField` widget is a custom stateless widget that displays a text field with a customizable hint text and obscuring of text input. It takes in a `controller`, `hintText` and `obscureText` as required parameters.
 
@@ -83,7 +83,7 @@ This is the full code snippet for the `MyTextField` widget with documentation.
 
 
 
-# Documentation for SquareTile widget
+# SquareTile widget
 
 The `SquareTile` widget is a custom stateless widget that displays a square-shaped container with an image icon. It takes in an image path and an `onTap` function as required parameters.
 
@@ -148,7 +148,7 @@ class SquareTile extends StatelessWidget {
 
 
 
-# Documentation for AuthService class
+# AuthService class
 
 The `AuthService` class is a custom class that provides a method for signing in a user using Google authentication.
 
@@ -198,7 +198,7 @@ class AuthService {
 
 
 
-# Documentation for RegisterPage class
+# RegisterPage class
 
 The `RegisterPage` class is a `StatefulWidget` that displays a registration form page for a new user to sign up with their email and password, or using their Google or Apple accounts.
 
@@ -287,7 +287,7 @@ The `MyButton` class builds a widget tree comprising of the following widgets:
       
       
       
-      # Documentation for LoginOrRegisterPage
+      # LoginOrRegisterPage
 
 The `LoginOrRegisterPage` class is a stateful widget that displays either a login page or a register page based on user's choice. 
 
